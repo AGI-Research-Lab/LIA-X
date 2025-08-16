@@ -1,0 +1,23 @@
+[project]
+name = "lia-x"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "av==14.2.0",
+    "einops==0.8.1",
+    "face-alignment==1.4.1",
+    "gradio==5.41.1",
+    "imageio==2.37.0",
+    "imageio-ffmpeg==0.6.0",
+    "ninja==1.11.1.4",
+    "numpy==1.24.3",
+    "pillow==11.3.0",
+    "pyyaml==6.0.2",
+    "setuptools>=80.9.0",
+    "torch==2.0.1",
+    "torchaudio>=2.0.2",
+    "torchvision==0.15.2",
+    "tqdm==4.67.1",
+]
